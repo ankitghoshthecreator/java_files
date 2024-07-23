@@ -14,6 +14,9 @@ class A {
 
 class B extends A {
 
+    void show() {
+        System.out.println("hello from B");
+    }
 }
 /*
  * here when we have a function in class A and class B with same name but the
