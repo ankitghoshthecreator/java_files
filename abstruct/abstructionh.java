@@ -1,13 +1,12 @@
 package abstruct;
 
-public class abstruction {
+public class abstructionh {
 
     public static void main(String[] args) {
         X obj = new Y();// obj of class X but the insatanciation is of class y (the sub class)
         obj.show();
     }
 }
-
 abstract class X {
     public void show() {
         System.out.println("hello from normal method");
