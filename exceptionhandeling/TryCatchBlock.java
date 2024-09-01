@@ -7,7 +7,7 @@ public class TryCatchBlock {
             int a = 10, b = 0;
             int c = a / b;
             System.out.println(c);  
-        } catch (ArithmeticException e) {
+        } catch (Exception e) {
             System.out.println(e);
         }
         System.out.println("helllo");
